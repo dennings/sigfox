@@ -11,7 +11,7 @@
 #include <ArduinoModbus.h>
 
 // How often (in milliseconds) the sensors will be read.
-const unsigned long REPORT_INTERVAL = 10000;
+const unsigned long REPORT_INTERVAL = 5000;
 const unsigned long SENDING_INTERVAL =  660000;   // 11min = 660sec = 660000ms
 
 float Volt_a;
